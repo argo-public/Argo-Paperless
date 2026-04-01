@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>E-Signing Complete</title>
+    <script>
+        window.onload = function () {
+            setTimeout(function () {
+                window.parent.postMessage('CLOSE', '*');
+            }, 2000);
+        };
+    </script>
+</head>
+<body style="background-color: lightgray; margin: 0px;">
+    <div style="font: bold 14pt Segoe UI; position: absolute; top: 50%; text-align: center; width: 100%;">
+        You have completed E-Signing this ceremony. If this window does not close automatically, manually close it.
+    </div>
+</body>
+</html>
